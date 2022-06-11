@@ -1,57 +1,60 @@
 #!/usr/bin/env node
 
-import readlineSync from 'readline-sync';
+import gameStart from '../src/games/calc.js';
 
-import _ from 'lodash';
+gameStart();
 
-console.log('Welcome to the Brain Games!');
-const userName = readlineSync.question('May I have your name?: ');
-console.log(`Hello, ${userName}!`);
-console.log('What is the result of the expression?.');
+// import readlineSync from 'readline-sync';
 
-let count = 0;
+// import _ from 'lodash';
 
-do {
-  const randomNumber1 = Math.ceil((Math.random()) * 100); // случайное число 1
-  const randomNumber2 = Math.ceil((Math.random()) * 100); // случайное число 1
+// console.log('Welcome to the Brain Games!');
+// const userName = readlineSync.question('May I have your name?: ');
+// console.log(`Hello, ${userName}!`);
+// console.log('What is the result of the expression?.');
 
-  const operators = ['+', '-', '*'];
-  const randomIndex = _.random(0, 2);
-  const operator = operators[randomIndex];
+// let count = 0;
 
-  console.log(`Question: ${randomNumber1} ${operator} ${randomNumber2}`); // вопрос с суммой
+// do {
+//   const randomNumber1 = Math.ceil((Math.random()) * 100); // случайное число 1
+//   const randomNumber2 = Math.ceil((Math.random()) * 100); // случайное число 1
 
-  const userAnswer = Number(readlineSync.question('')); // ответ пользователя
+//   const operators = ['+', '-', '*'];
+//   const randomIndex = _.random(0, 2);
+//   const operator = operators[randomIndex];
 
-  let correctAnswer;
+//   console.log(`Question: ${randomNumber1} ${operator} ${randomNumber2}`); // вопрос с суммой
 
-  switch (operator) {
-    case '+':
-      correctAnswer = Number(randomNumber1) + Number(randomNumber2);
-      break;
+//   const userAnswer = Number(readlineSync.question('')); // ответ пользователя
 
-    case '-':
-      correctAnswer = Number(randomNumber1) - Number(randomNumber2);
-      break;
+//   let correctAnswer;
 
-    case '*':
-      correctAnswer = Number(randomNumber1) * Number(randomNumber2);
-      break;
+//   switch (operator) {
+//     case '+':
+//       correctAnswer = Number(randomNumber1) + Number(randomNumber2);
+//       break;
 
-    default:
-      console.log('Oops something wrong!');
-      break;
-  }
+//     case '-':
+//       correctAnswer = Number(randomNumber1) - Number(randomNumber2);
+//       break;
 
-  if (userAnswer === correctAnswer) {
-    console.log('Correct!');
-    count += 1;
-  }
-  if (userAnswer !== correctAnswer) {
-    console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
-    break;
-  }
-  if (count === 3) {
-    console.log(`Congratulations, ${userName}!`);
-  }
-} while (count < 3);
+//     case '*':
+//       correctAnswer = Number(randomNumber1) * Number(randomNumber2);
+//       break;
+
+//     default:
+//       null;
+//   }
+
+//   if (userAnswer === correctAnswer) {
+//     console.log('Correct!');
+//     count += 1;
+//   }
+//   if (userAnswer !== correctAnswer) {
+//     console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
+//     break;
+//   }
+//   if (count === 3) {
+//     console.log(`Congratulations, ${userName}!`);
+//   }
+// } while (count < 3);

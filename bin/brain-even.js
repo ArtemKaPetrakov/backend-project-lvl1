@@ -4,7 +4,6 @@ import gameStart from '../src/games/even.js';
 
 gameStart();
 
-
 // import readlineSync from 'readline-sync';
 
 // console.log('Welcome to the Brain Games!');
@@ -26,7 +25,8 @@ gameStart();
 //     count += 1;
 //   }
 //   if (userAnswer !== correctAnswer) {
-//     console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
+//     console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`).
+//     console.log(`Let's try again, ${userName}!`);
 //     break;
 //   }
 //   if (count === 3) {
