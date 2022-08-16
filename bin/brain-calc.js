@@ -15,7 +15,7 @@ do {
   const randomNumber1 = Math.ceil((Math.random()) * 100); // случайное число 1
   const randomNumber2 = Math.ceil((Math.random()) * 100); // случайное число 1
 
-  const operators = ['+', '_', '*'];
+  const operators = ['+', '-', '*'];
   const randomIndex = _.random(0, 2);
   const operator = operators[randomIndex];
 
