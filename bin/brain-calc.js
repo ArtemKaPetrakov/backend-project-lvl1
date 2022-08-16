@@ -10,9 +10,11 @@ console.log('What is the result of the expression?.');
 let count = 0;
 
 do {
-  const randomNumber1 = Math.ceil((Math.random()) * 100); // случайное число
-  const randomNumber2 = Math.ceil((Math.random()) * 100);
-  console.log(`Question: ${randomNumber1} + ${randomNumber2}`); // вопрос с числом
+  const randomNumber1 = Math.ceil((Math.random()) * 100); // случайное число 1
+  const randomNumber2 = Math.ceil((Math.random()) * 100); // случайное число 1
+
+  console.log(`Question: ${randomNumber1} + ${randomNumber2}`); // вопрос с суммой 
+
   const userAnswer = Number(readlineSync.question('')); // ответ пользователя
   const correctAnswer = Number(randomNumber1) + Number(randomNumber2); // верный ответ
 
