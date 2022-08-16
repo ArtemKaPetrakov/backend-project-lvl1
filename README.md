@@ -4,5 +4,8 @@
 ### CodeClimate Maintainability Badge
 <a href="https://codeclimate.com/github/ArtemKaPetrakov/backend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/b4ef8315f42e26ca2e34/maintainability" /></a>
 
-### Asciinema 
+### Asciinema brain-even 
 <a href="https://asciinema.org/a/0GeqddNIN32W2Ubg2EE14yHlM" target="_blank"><img src="https://asciinema.org/a/0GeqddNIN32W2Ubg2EE14yHlM.svg" /></a>
+
+### Asciinema brain-calc
+<a href="https://asciinema.org/a/YESSoOzNxkYIXnOODChgfwZP7" target="_blank"><img src="https://asciinema.org/a/YESSoOzNxkYIXnOODChgfwZP7.svg" /></a>
