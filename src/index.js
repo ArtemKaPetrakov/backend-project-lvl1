@@ -6,4 +6,4 @@ export default () => {
   return console.log(`Hello, ${userName}!`);
 };
 
-// приветствие для Игры 
+// приветствие для Игры
