@@ -1,6 +1,6 @@
-import gameStart from '../index.js';
-
 import _ from 'lodash';
+
+import gameStart from '../index.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 

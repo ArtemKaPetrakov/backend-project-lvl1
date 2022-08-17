@@ -1,17 +1,15 @@
-import gameStart from '../index.js';
-
 import _ from 'lodash';
+
+import gameStart from '../index.js';
 
 const description = 'What is the result of the expression?.';
 
 const questionAndCorrectAnswer = () => {
-
   const randomNumber1 = _.random(0, 10);
   const randomNumber2 = _.random(0, 10);
   const operators = ['+', '-', '*'];
   const randomIndex = _.random(0, 2);
   const operator = operators[randomIndex];
-
 
   const question = `${randomNumber1} ${operator} ${randomNumber2}`;
 
@@ -31,7 +29,7 @@ const questionAndCorrectAnswer = () => {
       break;
 
     default:
-      null;
+      correctAnswer = null;
   }
   return [question, String(correctAnswer)];
 };

@@ -1,11 +1,10 @@
-import gameStart from '../index.js';
-
 import _ from 'lodash';
+
+import gameStart from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
 const questionAndCorrectAnswer = () => {
-
   const randomNumber1 = _.random(1, 10);
   const randomNumber2 = _.random(1, 10);
   const minForRandomNumbers = _.min([randomNumber1, randomNumber2]);
