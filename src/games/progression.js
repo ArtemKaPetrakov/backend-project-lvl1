@@ -6,7 +6,7 @@ const description = 'What number is missing in the progression?';
 const progressionLength = _.random(5, 10); // длинна прогрессии от 5 до 10
 const getProgression = () => { // формируем прогрессию
   let firstNumber = _.random(0, 15); // первый элемент
-  const step = _.random(1, 5); // шаг прогрессии
+  const step = _.random(2, 5); // шаг прогрессии
   const progression = []; // массив значений прогрессии
 
   for (let i = 0; i < progressionLength; i += 1) {
