@@ -7,4 +7,4 @@
 
 ### Игра: "Проверка на чётность"
 
-[![asciicast](https://asciinema.org/a/pEcMICKXXmBtdMOPwLKknQVW3.svg?t=4)](https://asciinema.org/a/pEcMICKXXmBtdMOPwLKknQVW3)
+[![asciicast](https://asciinema.org/a/pEcMICKXXmBtdMOPwLKknQVW3.svg)](https://asciinema.org/a/pEcMICKXXmBtdMOPwLKknQVW3?t=4)
