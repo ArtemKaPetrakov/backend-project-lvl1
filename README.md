@@ -4,3 +4,7 @@
 ### Maintainability Badge
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/710104e8efe0dfe40b0a/maintainability)](https://codeclimate.com/github/ArtemKaPetrakov/backend-project-lvl1/maintainability)
+
+### Игра: "Проверка на чётность"
+
+[![asciicast](https://asciinema.org/a/pEcMICKXXmBtdMOPwLKknQVW3.svg?t=4)](https://asciinema.org/a/pEcMICKXXmBtdMOPwLKknQVW3)
