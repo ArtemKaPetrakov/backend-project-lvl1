@@ -8,4 +8,4 @@
 
 import userGreeting from "../src/cli.js";
 
-userGreeting();
+userGreeting(); // импорт из ../src/cli.js
