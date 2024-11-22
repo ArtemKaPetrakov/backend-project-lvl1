@@ -8,3 +8,7 @@
 ### Игра: "Проверка на чётность"
 
 [![asciicast](https://asciinema.org/a/pEcMICKXXmBtdMOPwLKknQVW3.svg)](https://asciinema.org/a/pEcMICKXXmBtdMOPwLKknQVW3?t=4)
+
+### Игра: "Калькулятор"
+
+[![asciicast](https://asciinema.org/a/UBUgD28cmMNpYMt8sY9jhRCBG.svg)](https://asciinema.org/a/UBUgD28cmMNpYMt8sY9jhRCBG?t=4)
