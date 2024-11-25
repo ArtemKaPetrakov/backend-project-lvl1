@@ -17,3 +17,7 @@
 ### Игра "НОД"
 
 [![asciicast](https://asciinema.org/a/HF68HKkDetpSsx2Cm6vCmOa9w.svg)](https://asciinema.org/a/HF68HKkDetpSsx2Cm6vCmOa9w)
+
+### Игра "Арифметическая прогрессия"
+
+[![asciicast](https://asciinema.org/a/mBeRwWEY4YWWItf1rqpla49OD.svg)](https://asciinema.org/a/mBeRwWEY4YWWItf1rqpla49OD)
