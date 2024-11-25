@@ -12,3 +12,8 @@
 ### Игра: "Калькулятор"
 
 [![asciicast](https://asciinema.org/a/UBUgD28cmMNpYMt8sY9jhRCBG.svg)](https://asciinema.org/a/UBUgD28cmMNpYMt8sY9jhRCBG?t=4)
+
+
+### Игра "НОД"
+
+[![asciicast](https://asciinema.org/a/HF68HKkDetpSsx2Cm6vCmOa9w.svg)](https://asciinema.org/a/HF68HKkDetpSsx2Cm6vCmOa9w)
